@@ -4,3 +4,9 @@ applications:
   memory: 128M
   instances: 1
   random-route: true
+deployment:
+  services: []
+  env:
+    SECRET_KEY:
+      description: "Secret key"
+      required: true
