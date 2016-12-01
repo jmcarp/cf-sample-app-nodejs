@@ -5,7 +5,10 @@ applications:
   instances: 1
   random-route: true
 deployment:
-  services: []
+  services:
+  - service: redis28
+    plan: standard
+    label: test-redis
   env:
     SECRET_KEY:
       description: "Secret key"
