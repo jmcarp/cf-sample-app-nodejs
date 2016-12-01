@@ -13,3 +13,7 @@ deployment:
     SECRET_KEY:
       description: "Secret key"
       required: true
+    LABEL:
+      description: "Application label"
+      value: "My app"
+      required: false
